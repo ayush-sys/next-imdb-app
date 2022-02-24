@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+    body {
+        @apply bg-[#06202A] text-gray-300
+    }
+}
+
+@layer components {
+    .header-item {
+        @apply flex flex-col items-center cursor-pointer w-12 sm:w-20 hover:text-white
+    }
+}
