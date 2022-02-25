@@ -7,8 +7,8 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Imdb 2.0</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Hulu 2.0</title>
+        <link rel="icon" href="/hulu.png" />
       </Head>
 
       {/* Header */}
