@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { FaGoogle } from "react-icons/fa";
+import firebase from "../libs/firebase";
 
 
 export default function login() {
