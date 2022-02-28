@@ -33,4 +33,8 @@
     .thumbnail-title {
         @apply mt-1 text-2xl text-white transition-all duration-100 ease-in-out
     }
+
+    .login-btn {
+        @apply flex flex-row items-center justify-center rounded-3xl bg-white text-gray-600 p-2 m-2 hover:bg-slate-500 hover:text-white
+    }
 }
